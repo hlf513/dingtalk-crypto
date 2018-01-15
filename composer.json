@@ -1,0 +1,25 @@
+{
+    "name": "hlf_513/dingtalk-crypto",
+    "description": "钉钉开放平台加解密消息体（openssl版本）",
+    "type": "library",
+    "keywords": ["dingtalk open-api encrypt openssl"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "longfei.he",
+            "email": "hlf513@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "ext-openssl": ">=0.9.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hlf\\DingTalkCrypto\\": "src/"
+        }
+    }
+}
